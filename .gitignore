@@ -1,6 +1,7 @@
 *
 
 !.gitignore
-!.emacs.d
+!.emacs.d/
+!.emacs.d/*
 !.bash_profile
 !.bashrc
