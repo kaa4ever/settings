@@ -6,7 +6,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
-alias w="cd /home/www/kka"
+alias w="cd /home/www"
 alias cc="drush cc all"
 
 PS1='[\u@\h:\w]\$ '
