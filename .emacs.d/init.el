@@ -1,16 +1,17 @@
 ; make sure the target directory is on your load-path
 (add-to-list 'load-path "~/.emacs.d")
 (require 'php-mode)
+(require 'drupal-mode)
 
 (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
-(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
-(add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
-(add-to-list 'auto-mode-alist '("\\.module$" . php-mode))
+(add-to-list 'auto-mode-alist '("\\.php$" . drupal-mode))
+(add-to-list 'auto-mode-alist '("\\.inc$" . drupal-mode))
+(add-to-list 'auto-mode-alist '("\\.module$" . drupal-mode))
 
 (load-theme 'wombat)
 
-; Set tab indent to 2.
-(setq-default indent-tabs-mode nil)
-(setq-default tab-width 2)
-(setq indent-line-function 'insert-tab)
-(setq standard-indent 2)
+; Set backup directory
+(setq backup-directory-alist '(("" . "~/.emacs.d/backups")))
+
+; Add line numbers
+(global-linum-mode t)
