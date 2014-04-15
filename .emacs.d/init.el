@@ -2,11 +2,14 @@
 (add-to-list 'load-path "~/.emacs.d")
 (require 'php-mode)
 (require 'drupal-mode)
+(require 'web-mode)
 
 (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
 (add-to-list 'auto-mode-alist '("\\.php$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.inc$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.module$" . drupal-mode))
+(add-to-list 'auto-mode-alist '("\\.js$" . js-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl.php$" . web-mode))
 
 (load-theme 'wombat)
 
