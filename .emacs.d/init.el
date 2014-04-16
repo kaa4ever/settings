@@ -7,6 +7,7 @@
 (add-to-list 'auto-mode-alist '("\\.php$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.inc$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.module$" . drupal-mode))
+(add-to-list 'auto-mode-alist '("\\.install$" . drupal-mode))
 
 (load-theme 'wombat)
 
