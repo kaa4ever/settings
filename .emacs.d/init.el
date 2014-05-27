@@ -10,6 +10,7 @@
 (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
 (add-to-list 'auto-mode-alist '("\\.php$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.inc$" . drupal-mode))
+(add-to-list 'auto-mode-alist '("\\.test$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.module$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.install$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.js$" . js-mode))
@@ -20,6 +21,10 @@
 (add-to-list 'auto-mode-alist '("\\.sass$" . scss-mode))
 
 (load-theme 'wombat)
+
+(setq scss-compile-at-save nil)
+
+
 
 ; Set backup directory
 (setq backup-directory-alist '(("" . "~/.emacs.d/backups")))
