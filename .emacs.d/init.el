@@ -5,7 +5,8 @@
 (require 'web-mode)
 (require 'twig-mode)
 (require 'css-mode)
-(require 'scss-mode)
+(require 'haml-mode)
+(require 'sass-mode)
 
 (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
 (add-to-list 'auto-mode-alist '("\\.php$" . drupal-mode))
@@ -16,8 +17,8 @@
 (add-to-list 'auto-mode-alist '("\\.tpl.php$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.twig$" . twig-mode))
 (add-to-list 'auto-mode-alist '("\\.css$" . css-mode))
-(add-to-list 'auto-mode-alist '("\\.scss$" . scss-mode))
-(add-to-list 'auto-mode-alist '("\\.sass$" . scss-mode))
+(add-to-list 'auto-mode-alist '("\\.scss$" . sass-mode))
+(add-to-list 'auto-mode-alist '("\\.sass$" . sass-mode))
 
 (load-theme 'wombat)
 
