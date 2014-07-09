@@ -2,4 +2,5 @@
 alias cc="drush cc all"
 alias ..="cd .."
 alias ...="cd ../.."
-alias l='ls -lha'
+alias l="ls -lha"
+alias w="cd /var/www"
