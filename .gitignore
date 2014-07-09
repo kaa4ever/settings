@@ -3,3 +3,4 @@
 !.gitignore
 !.emacs.d/
 !.emacs.d/*
+!aliases.sh
