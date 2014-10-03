@@ -4,7 +4,6 @@
 !.emacs.d/
 !.emacs.d/*
 
-
 # Patch/diff artifacts.
 *.patch
 *.diff
@@ -29,3 +28,4 @@ sites/*/settings.php
 # Exclude IDE's project directory
 nbproject
 .idea
+!aliases.sh

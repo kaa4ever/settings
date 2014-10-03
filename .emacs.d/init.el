@@ -3,15 +3,26 @@
 (require 'php-mode)
 (require 'drupal-mode)
 (require 'web-mode)
+(require 'twig-mode)
+(require 'css-mode)
+(require 'haml-mode)
+(require 'sass-mode)
+(require 'yaml-mode)
 
 ; Set modes
 (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
 (add-to-list 'auto-mode-alist '("\\.php$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.inc$" . drupal-mode))
+(add-to-list 'auto-mode-alist '("\\.test$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.module$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.install$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.js$" . js-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl.php$" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.yaml$" . yaml-mode))
+(add-to-list 'auto-mode-alist '("\\.twig$" . twig-mode))
+(add-to-list 'auto-mode-alist '("\\.css$" . css-mode))
+(add-to-list 'auto-mode-alist '("\\.scss$" . sass-mode))
+(add-to-list 'auto-mode-alist '("\\.sass$" . sass-mode))
 
 ; Auto complete
 (require 'auto-complete-config)
@@ -23,6 +34,9 @@
 (setq php-manual-path "~/.emacs.d/php-chunked-xhtml")
 
 (load-theme 'wombat)
+
+; Disable automatically compilation of sass.
+(setq scss-compile-at-save nil)
 
 ; Set backup directory
 (setq backup-directory-alist '(("" . "~/.emacs.d/backups")))
