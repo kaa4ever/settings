@@ -18,6 +18,7 @@
 (add-to-list 'auto-mode-alist '("\\.install$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.js$" . js-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl.php$" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.md$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.yaml$" . yaml-mode))
 (add-to-list 'auto-mode-alist '("\\.twig$" . twig-mode))
 (add-to-list 'auto-mode-alist '("\\.css$" . css-mode))
