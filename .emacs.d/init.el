@@ -76,3 +76,7 @@
 (add-hook 'php-mode-hook
           (lambda ()
             (add-hook 'c-special-indent-hook 'unindent-closure)))
+
+; Convert tabs to spaces
+(setq-default indent-tabs-mode nil)
+(setq js-indent-level 2)
