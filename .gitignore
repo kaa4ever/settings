@@ -3,7 +3,7 @@
 !.gitignore
 !.emacs.d/
 !.emacs.d/*
-
+.emacs.d/ac-comphist.dat
 # Patch/diff artifacts.
 *.patch
 *.diff

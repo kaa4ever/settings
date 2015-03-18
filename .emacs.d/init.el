@@ -1,5 +1,5 @@
 ; make sure the target directory is on your load-path
-(add-to-list 'load-path "~/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d/lisp")
 (require 'php-mode)
 (require 'drupal-mode)
 (require 'web-mode)
