@@ -8,12 +8,18 @@ These files are in use and works on the following platforms
 
 ## Setup
 cd ~/
+
 git init
+
 git remote add origin git@github.com:kaa4ever/settings.git
+
 git fetch origin
+
 git checkout -b master --track origin/master
+
 git pull
 
 ## Configuration
 Modify your .bash_profile file in your home directory and add the follwing line:
-'''source aliases.sh
+
+source aliases.sh
