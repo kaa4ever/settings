@@ -1,3 +1,7 @@
+if [ -f ~/git-completion.bash ]; then
+    . ~/git-completion.bash
+fi
+
 # Shortcuts
 alias cc="drush cc all"
 alias ..="cd .."
