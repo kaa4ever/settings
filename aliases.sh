@@ -3,7 +3,8 @@ if [ -f ~/git-completion.bash ]; then
 fi
 
 # Shortcuts
-alias cc="drush cc all"
+alias drush='docker run -v `pwd`:/app --link sa.mariadb --rm sikkerarvdk/drush'
+
 alias ..="cd .."
 alias ...="cd ../.."
 alias l="ls -lha"
