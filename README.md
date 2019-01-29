@@ -23,3 +23,6 @@ git pull
 Modify your .bash_profile file in your home directory and add the follwing line:
 
 source aliases.sh
+
+## Tools
+https://github.com/sindresorhus/quick-look-plugins/blob/master/readme.md
