@@ -11,6 +11,7 @@ alias w="cd ~/www"
 alias dp="docker ps"
 alias dpa="docker ps -a"
 alias dcu="docker-compose up"
+alias dcs="docker-compose stop"
 db() {
   docker exec -ti $1 bash
 }
