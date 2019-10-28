@@ -10,6 +10,7 @@ alias w="cd ~/www"
 # Docker shortcuts
 alias dp="docker ps"
 alias dpa="docker ps -a"
+alias dcu="docker-compose up"
 db() {
   docker exec -ti $1 bash
 }
