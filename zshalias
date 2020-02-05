@@ -1,6 +1,5 @@
-if [ -f ~/git-completion.bash ]; then
-    . ~/git-completion.bash
-fi
+zstyle ':completion:*:*:git:*' script ~/.git-completion.zsh
+#fpath=(~/.zsh $fpath)
 
 alias ..="cd .."
 alias ...="cd ../.."
@@ -26,4 +25,4 @@ git config --global alias.type 'cat-file -t'
 git config --global alias.dump 'cat-file -p'
 git config --global alias.cleanup 'remote prune origin'
 
-export PS1="\w/ "
+export PS1="%d/ "
