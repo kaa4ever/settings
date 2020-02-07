@@ -1,5 +1,7 @@
-zstyle ':completion:*:*:git:*' script ~/.git-completion.zsh
-#fpath=(~/.zsh $fpath)
+# Load Git auto-completion
+zstyle ':completion:*:*:git:*' script ~/.git-completion.bash
+fpath=(~/ $fpath)
+autoload -Uz compinit && compinit
 
 alias ..="cd .."
 alias ...="cd ../.."
