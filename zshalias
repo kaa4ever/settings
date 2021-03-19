@@ -8,6 +8,9 @@ alias ...="cd ../.."
 alias l="ls -lha"
 alias w="cd ~/www"
 
+# Kubernetes shortcuts
+alias k="kubectl"
+
 # Docker shortcuts
 alias dp="docker ps"
 alias dpa="docker ps -a"
