@@ -18,8 +18,8 @@ https://github.com/sindresorhus/quick-look-plugins/blob/master/readme.md
 
 ## iTerm jump words
 To enable jumping words in iTerm by clicking `option + left` and `option + right` do the following:
-- Go to __Preferences__ in iTerm
-- Go to __Profile__
+- Go to __Settingds__ in iTerm
+- Go to __Profiles__
 - Go to __Keys__
 - Go to __Key Mappings__
 - Add new mapping by click __+__
