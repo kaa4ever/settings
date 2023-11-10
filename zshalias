@@ -21,6 +21,13 @@ db() {
 }
 
 # Git shortcuts
+alias ga="git add"
+alias gc="git commit"
+alias gd="git diff"
+alias gs="git status"
+alias gps="git push"
+alias gpl="git pull"
+
 git config --global alias.co checkout
 git config --global alias.ci commit
 git config --global alias.st status
