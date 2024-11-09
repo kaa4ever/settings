@@ -26,3 +26,12 @@ To enable jumping words in iTerm by clicking `option + left` and `option + right
 - Set the Keyboard shortcut
 - Set __Action__ to __Send Escape Sequence__
 - Set to `f` for jumping forward and `b` for jumping backwards.
+
+## Neovim
+```bash
+brew install neovim
+brew install font-meslo-lg-nerd-font
+brew install ripgrep
+```
+
+Select __MesloLGS Nerd Font Mono__ in iterm2 settings 
