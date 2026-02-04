@@ -1,2 +1,2 @@
-require("kaa4ever.core")
-require("kaa4ever.lazy")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
