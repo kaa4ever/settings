@@ -29,3 +29,6 @@ To enable jumping words in iTerm by clicking `option + left` and `option + right
 - Set __Action__ to __Send Escape Sequence__
 - Set to `f` for jumping forward and `b` for jumping backwards.
 
+## Nvim
+Install Neovim: `brew install neovim`
+
