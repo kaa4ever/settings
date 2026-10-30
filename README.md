@@ -11,14 +11,16 @@ git pull
 ```
 
 ## Configuration
-Add `source ~/zshalias` to the ~/.zshrc file.
+Add `source ~/zshalias` to the `~/.zshrc` file.
+
+Restart Iterm2
 
 ## Tools
 https://github.com/sindresorhus/quick-look-plugins/blob/master/readme.md
 
 ## iTerm jump words
 To enable jumping words in iTerm by clicking `option + left` and `option + right` do the following:
-- Go to __Settingds__ in iTerm
+- Go to __Settings__ in iTerm
 - Go to __Profiles__
 - Go to __Keys__
 - Go to __Key Mappings__
